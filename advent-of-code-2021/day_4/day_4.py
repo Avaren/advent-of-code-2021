@@ -32,9 +32,9 @@ class BingoBoard:
 def parse_file(file_name):
     bingo_boards = []
     with open(f"advent-of-code-2021/day_4/{file_name}") as f:
-        data = f.read().split('\n\n')
+        data = f.read().split("\n\n")
 
-    numbers = [int(n) for n in data[0].split(',')]
+    numbers = [int(n) for n in data[0].split(",")]
 
     for board_data in data[1:]:
         bingo_boards.append(BingoBoard(board_data))
