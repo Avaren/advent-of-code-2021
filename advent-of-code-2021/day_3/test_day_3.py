@@ -1,10 +1,23 @@
 from .day_3 import part_1, part_2
 
-TEST_DATA = ['00100', '11110', '10110', '10111', '10101', '01111', '00111', '11100', '10000', '11001', '00010', '01010']
+TEST_DATA = [
+    "00100",
+    "11110",
+    "10110",
+    "10111",
+    "10101",
+    "01111",
+    "00111",
+    "11100",
+    "10000",
+    "11001",
+    "00010",
+    "01010",
+]
 
 
 def load_data():
-    with open('advent-of-code-2021/day_3/data') as data:
+    with open("advent-of-code-2021/day_3/data") as data:
         return [line.strip() for line in data]
 
 
