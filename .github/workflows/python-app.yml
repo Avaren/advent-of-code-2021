@@ -5,6 +5,7 @@ name: Advent of Code Tests
 
 on:
   push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
